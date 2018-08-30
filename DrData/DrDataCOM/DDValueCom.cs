@@ -13,7 +13,7 @@ namespace DrOpen.DrCommon.DrDataCom
         // listed here 
         //
         [DispId(1)]
-            Type Type { [return: MarshalAs(UnmanagedType.)] get; }
+            Type Type { [return: MarshalAs(UnmanagedType.BStr)] get; }
        // [DispId(2)]
 
         //long SizeValue { [return: MarshalAs(UnmanagedType.I8)] get; }
